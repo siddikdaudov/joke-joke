@@ -1,0 +1,50 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 30px;
+  box-shadow: 0 7px 25px 0 rgba(100, 100, 111, 0.2);
+  padding: 30px 30px 25px 30px;
+  cursor: pointer;
+  position: relative;
+}
+
+.card a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.joke {
+  font-weight: 400;
+  font-size: 20px;
+  color: #282626;
+  word-break: break-word;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #767676;
+}
+
+@media screen and (max-width: 769px) {
+  .card {
+    padding: 15px 15px 10px 15px;
+  }
+  .joke {
+    font-size: 14px;
+  }
+  .footer p {
+    font-size: 10px;
+  }
+}

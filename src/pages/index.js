@@ -1,0 +1,1 @@
+export { JokesPage } from "./jokes";

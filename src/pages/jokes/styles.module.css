@@ -1,0 +1,14 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+  align-items: center;
+  margin: 0 auto 20px auto;
+}
+
+.count {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #282626;
+  padding-left: 35px;
+}
