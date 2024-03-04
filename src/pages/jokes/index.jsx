@@ -22,7 +22,7 @@ export const JokesPage = () => {
     <main className={styles.page}>
       <div>
         <Input value={joke} onChange={(e) => setJoke(e.target.value)} placeholder="Search jokes..." />
-        {debouncedJoke && <p className={styles.count}>Found jokes: {total}</p>}
+        {!!total && <p className={styles.count}>Found jokes: {total}</p>}
       </div>
       <Cards />
     </main>
