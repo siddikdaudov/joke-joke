@@ -1,4 +1,4 @@
 # Для запуска
-- cd joke-joe
+- cd joke-joke
 - npm i
 - npm run dev
